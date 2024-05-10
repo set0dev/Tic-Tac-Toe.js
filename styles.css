@@ -1,0 +1,52 @@
+body {
+    font-family: "Poppins", 'Arial';
+}
+
+
+.cell{
+
+    font-family: "Poppins";
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+
+#gameContainer{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Poppins";
+    text-align: center;
+
+}
+
+#cellContainer{
+
+    font-family: "Poppins";
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+
+}
+
+#restartBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db; /* Blue color */
+    color: #ffffff; /* White text */
+    font-family: "Poppins";
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
